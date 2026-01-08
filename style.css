@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalnia+Glaze:wght@100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body{
+    background-color: black;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+}
+.formBtn{
+    display: block;
+    color: white;
+    background-color: rgb(103, 96, 96);
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-color: #212A37;
+}
+.sub-heading{
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.container{
+    background-color: #212A37;
+    margin-top: 3rem;
+    flex:1;
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+#modal{
+    background-color: black;
+    color: white;
+    border-radius: 1.1rem;
+}
+dialog {
+    margin: auto;
+    width: 29rem;
+    height: 32rem;
+    padding: 1rem;
+}
+dialog  form > *{
+    margin-top: 0.9rem;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-group input{
+    min-width: 100%;
+    min-height: 1.4rem;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+textarea{
+    min-width: 100%;
+    min-height: 7.5rem;
+    border-radius: 9px;
+}
+.closeBtn{
+    display: block;
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+dialog::backdrop{
+    background-color: black;
+    opacity: 0.5;
+}
+.container{
+    display: grid;
+    padding: 1rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+}
+.book-card{
+    background-color: #121212;
+    border-radius: 10px;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+}
+.book-card > *{
+    margin-top: 0.5rem;
+}
+.book-dltBtn{
+    display: block;
+    background-color: #F2003C;
+    color: black;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+.book-label{
+    margin-left: 0.4rem;
+    font-size: 1rem;
+}

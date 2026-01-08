@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>My Personal Library</header>
+    <button class="formBtn">Add new book</button>
+    <div class="sub-heading">My Library</div>
+    <div class="container"></div>
+    <dialog id="modal">
+        <form action="#" class="form" method="dialog">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title">
+            </div>
+            <div class="form-group">
+                <label for="author">Author:</label>
+                <input type="text" id="author">
+            </div>
+            <div class="form-group">
+                <label for="noPages">No Of pages:</label>
+                <input type="number" id="noPages" min="0">
+            </div>
+            <fieldset id="radioBtn">
+                <legend>Read Status</legend>
+                <div>
+                    <label for="read">Read</label>
+                    <input type="radio" id="read" name="readStatus" value="read">
+                </div>
+                <div>
+                    <label for="notRead">Not Read</label>
+                    <input type="radio" id="notRead" name="readStatus" value="not-read" checked>
+                </div>
+            </fieldset>
+            <textarea name="" id="description" placeholder="Description of book"></textarea>
+            <button class="closeBtn" type="submit">Confirm</button>
+        </form>
+    </dialog>
+    <script src="./script.js"></script>
+</body>
+</html>
