@@ -5,26 +5,26 @@ Built using vanilla JavaScript, HTML, and CSS with a focus on object-oriented de
 
 🚀 Features
 
-Add new books using a modal form
+1. Add new books using a modal form
 
-Display books in a responsive grid layout
+2. Display books in a responsive grid layout
 
-Each book contains:
+3. Each book contains:
 
-Title
+    •Title
 
-Author
+    •Author
 
-Number of pages
+    •Number of pages
 
-Description
+4. Description
 
-Read / Not Read status
+5. Read / Not Read status
 
-Toggle read status using a checkbox
+6. Toggle read status using a checkbox
 
-Delete books from the library
+7. Delete books from the library
 
-Each book has a unique ID for reliable identification
+8. Each book has a unique ID for reliable identification
 
-UI stays in sync with the underlying data
+9. UI stays in sync with the underlying data
